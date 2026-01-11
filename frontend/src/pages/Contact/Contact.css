@@ -1,0 +1,55 @@
+.contact {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 1.5rem;
+}
+
+.contact-text-area {
+    padding: 2rem 0;
+}
+
+.contact-text {
+    font-size: 1.125rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+.contact-text a {
+    word-wrap: break-word;
+    max-width: 100%;
+    text-decoration: underline;
+}
+
+.contact-icons {
+    display: flex;
+}
+
+.contact svg {
+    font-size: 3rem;
+    margin: 1rem 1rem 0;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 900px) {
+    .contact {
+        grid-template-columns: 100%;
+    }
+
+    .contact svg {
+        text-align: center;
+    }
+
+    .contact-icons {
+        justify-content: space-evenly;
+    }
+
+    .contact-text {
+        font-size: 1rem;
+    }
+    
+    .btn-form {
+        display: flex;
+        justify-content: center;
+    }
+}
