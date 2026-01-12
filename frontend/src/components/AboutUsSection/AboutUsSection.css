@@ -1,0 +1,38 @@
+.about-us-home {
+    padding-bottom: 3rem;
+    background: linear-gradient(0deg, rgba(232, 232, 232, .8), rgba(232, 232, 232, .9)), url("../../assets/img/background-texture-edit.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-us-home-grid {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    gap: 1rem;
+}
+
+.about-us-home-text {
+    text-align: justify;
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+}
+
+.about-us-home-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about-us-home-image {
+    max-height: 200px;
+}
+
+@media (max-width: 900px) {
+    .about-us-home-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-us-home-image-container {
+        margin-top: 1rem;
+    }
+}

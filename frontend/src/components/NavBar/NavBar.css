@@ -1,0 +1,13 @@
+.link {
+    color: var(--cor-fonte-principal);
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.active-link {
+    text-decoration: underline;
+}
+
+.footer-nav-links {
+    color: var(--branco) !important;
+}

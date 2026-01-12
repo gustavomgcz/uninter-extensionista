@@ -1,0 +1,37 @@
+.btn {
+    display: inline-block;
+    border-radius: 24px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.125rem;
+    background-color: var(--vermelho-medio);
+    color: var(--branco);
+    border: 3px solid var(--vermelho-medio);
+    cursor: pointer;
+    transition: 0.2s
+}
+
+.btn:hover {
+    border: 3px solid var(--vermelho-marca-escuro);
+}
+
+.underline {
+    border: none;
+    border-radius: 0;
+    background-color: var(--branco);
+    color: var(--cor-fonte-principal);
+    padding: 1rem 0 0 0;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+.underline:hover {
+    border: none;
+}
+
+@media (max-width: 900px) {
+    .btn {
+        padding: 0.6875rem 1.5rem;
+        font-size: 1.375rem;
+    }
+}

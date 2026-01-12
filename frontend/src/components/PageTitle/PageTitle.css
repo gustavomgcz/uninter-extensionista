@@ -1,0 +1,18 @@
+.page-title {
+  padding: 2rem 10rem 2.5rem;
+  background-color: var(--vermelho-marca);
+  background-size: cover;
+  color: var(--branco);
+  font-size: 2rem;
+}
+
+.page-title h1 {
+  font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  .page-title {
+    padding: 1.5rem 4rem;
+    font-size: 1.25rem;
+  }
+}
