@@ -6,6 +6,7 @@ import Home from 'pages/Home'
 import Actions from 'pages/Actions'
 import ScrollToTop from 'components/ScrollToTop'
 import Contact from 'pages/Contact'
+import NotFound from 'pages/NotFound'
 
 function AppRoutes() {
   return (
@@ -17,6 +18,7 @@ function AppRoutes() {
           <Route path="/" element={<Home />} />
           <Route path="/acoes" element={<Actions />} />
           <Route path="/contato" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </BrowserRouter>
