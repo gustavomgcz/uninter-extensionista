@@ -1,5 +1,4 @@
 import Banner from 'components/Banner'
-import News from 'components/News'
 import AboutUsSection from 'components/AboutUsSection'
 import ActionsSection from 'components/ActionsSection'
 
@@ -9,7 +8,6 @@ function Home() {
             <Banner />
             <main>
                 <ActionsSection />
-                {/* <News /> */}
                 <AboutUsSection />
             </main>
         </>
